@@ -8,7 +8,7 @@ aliases:
       fi
   - &install_pnpm
     name: Install pnpm
-    command: npm install pnpm@^4.0.0 -g
+    command: npm install pnpm@next -g
   - &install_yarn
     name: Install yarn
     command: npm install yarn -g
