@@ -1,4 +1,0 @@
-fragment HeroFragment on Hero {
-  id
-  name
-}

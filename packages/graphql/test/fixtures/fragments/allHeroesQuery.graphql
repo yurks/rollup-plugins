@@ -1,7 +1,0 @@
-#import "./heroFragment.graphql"
-
-query AllHeroes {
-  heros {
-    ...HeroFragment
-  }
-}

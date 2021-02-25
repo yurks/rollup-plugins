@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "incremental": true,
-    "outDir": "./dist",
-    "tsBuildInfoFile": "./dist/.tsbuildinfo"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "globals": {
-    "t": "readonly",
-    "WebAssembly": "readonly"
-  }
-}

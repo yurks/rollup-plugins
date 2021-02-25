@@ -1,9 +1,0 @@
-{
-  "globals": {
-    "t": true
-  },
-  "rules": {
-    "import/extensions": "off",
-    "import/no-unresolved": "off"
-  }
-}

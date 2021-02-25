@@ -1,6 +1,0 @@
-query GetHero {
-  hero {
-    id
-    name
-  }
-}

@@ -1,3 +1,0 @@
-alice: { private: true }
-bob:   { private: false }
-carl:  {}

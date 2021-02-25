@@ -44,38 +44,5 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.7",
     "yaml": "^1.10.0"
-  },
-  "ava": {
-    "files": [
-      "!**/fixtures/**",
-      "!**/helpers/**",
-      "!**/recipes/**",
-      "!**/types.ts"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,js}": [
-      "eslint --fix"
-    ],
-    "*.md": [
-      "prettier --single-quote --write"
-    ],
-    "*package.json": [
-      "prettier --write --plugin=prettier-plugin-package"
-    ]
-  },
-  "nyc": {
-    "include": [
-      "lib/**/*.js"
-    ],
-    "exclude": [
-      "lib/client*.js",
-      "test/"
-    ]
   }
 }
