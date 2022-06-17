@@ -1,5 +1,6 @@
 {
   "name": "@rollup/plugins",
+  "version": "0.0.0-yurk",
   "private": true,
   "scripts": {
     "ci:coverage": "node scripts/run-changed.js ci:coverage",
